@@ -7,6 +7,8 @@ from aimacode.search import (breadth_first_search, astar_search,
     recursive_best_first_search)
 from my_air_cargo_problems import air_cargo_p1, air_cargo_p2, air_cargo_p3
 
+# python run_search.py -p 1 2 3 -s 1 2 -s 1 2 3 4 5 6 7 8 9 10 > results.txt
+
 PROBLEM_CHOICE_MSG = """
 Select from the following list of air cargo problems. You may choose more than
 one by entering multiple selections separated by spaces.
